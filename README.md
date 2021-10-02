@@ -1,4 +1,4 @@
-  <h3 align="center">Movie Database App project</h3>
+  <h3 align="center">Netflix Clone (one-day build)</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">

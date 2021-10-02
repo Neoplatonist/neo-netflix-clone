@@ -7,7 +7,7 @@
   background-color: transparent;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   z-index: 20;
 }
 
@@ -25,7 +25,7 @@
   margin-right: 20px;
 }
 
-.navbar-mobile-hamburger:hover{
+.navbar-mobile-hamburger:hover {
   cursor: pointer;
 }
 
@@ -33,12 +33,12 @@
   margin: 0;
   padding-left: 30px;
   position: absolute;
-  top: 0; 
+  top: 0;
   left: -100%;
-  background: black; 
+  background: black;
   height: 100vh;
   width: 180px;
-  transition: left 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  transition: left 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   list-style-type: none;
 }
 
@@ -47,7 +47,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
 }
 
 #hamburger-slider li {
@@ -56,7 +55,6 @@
 /* Need to figure out how to create a hover effect that highlights entire row */
 #hamburger-slider li a:hover {
   background-color: #141414;
-  
 }
 
 .nav-esc {
@@ -72,13 +70,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
-a {  
+a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-
 }
 
 .navbar-center li {
@@ -97,7 +93,7 @@ a {
 }
 
 .dropbtn {
-  display:flex;
+  display: flex;
   align-items: flex-end;
   background-color: transparent;
   color: white;
@@ -105,15 +101,15 @@ a {
   font-size: 1.4rem;
   border: none;
 }
-.down-arrow{
+.down-arrow {
   padding-left: 5px;
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:black;
+  background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -125,11 +121,11 @@ a {
 }
 
 .dropdown-content a:hover {
-  background-color: #3D3A3A;
+  background-color: #3d3a3a;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block
+  display: block;
 }
 
 .navbar-mobile-right {
@@ -145,7 +141,7 @@ a {
 
 /* mobile sizes with max-width of 600px*/
 @media screen and (max-width: 600px) {
-  .navbar-center, 
+  .navbar-center,
   .navbar-tablet-dropdown,
   .navbar-right {
     display: none;
@@ -158,7 +154,6 @@ a {
   .navbar-mobile-right {
     margin-right: 35px;
   }
-
 }
 
 /* tablet sizes of up to 768px */
@@ -175,6 +170,6 @@ a {
   .navbar-mobile-hamburger,
   .navbar-tablet-dropdown,
   .navbar-mobile-right {
-    display: none
+    display: none;
   }
 }
