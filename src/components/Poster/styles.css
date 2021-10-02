@@ -1,0 +1,65 @@
+.poster {
+    position: relative;
+    max-height: 255px;
+    margin: 0 5px; 
+    transition: transform 500ms;
+    cursor: pointer;
+}
+
+.poster img {
+    max-height: 255px;
+    transition: transform 500ms; 
+    object-fit: contain;
+}
+
+.poster:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.poster:hover .overlay,
+.poster:hover .poster-description {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(20, 20, 20, 0.5);
+}
+
+.poster-description {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.poster,
+    .poster img {
+        max-width: 250px;
+    }
+
+    .portrait img {
+        max-width: 150px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 979px) {
+    .poster img{
+        max-width: 300px;
+    }
+    .portrait img {
+        max-width: 250px;
+    }
+}
+  
