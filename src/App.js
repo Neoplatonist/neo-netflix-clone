@@ -4,13 +4,14 @@ import NavBar from './layout/Navbar';
 import Row from './components/Row';
 import Footer from './layout/Footer';
 import api from './api';
+import Modal from './components/Modal';
 
 function App() {
   return (
-    <div
-      className="App">
-
+    <div className="App">
       <NavBar />
+
+      <Modal />
 
       <Banner />
 
