@@ -17,7 +17,7 @@ function App() {
 
       <Row
         className="title-rows"
-        title="Netflix Originals"
+        title="Neoflix Originals"
         url={api.getNetflixOriginals} isPoster
       />
 

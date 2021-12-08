@@ -80,7 +80,7 @@ function Footer() {
             </section>
 
             <section className="footer-copyright">
-                &copy; 1997-{new Date().getFullYear()} Netflix Clone, Inc. {'{MD5: 42160cb013adb360492c4872a1a0f728}'}
+                &copy; 1997-{new Date().getFullYear()} Neoflix, Inc. {'{MD5: 42160cb013adb360492c4872a1a0f728}'}
             </section>
         </footer>
     );
